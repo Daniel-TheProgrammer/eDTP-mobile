@@ -12,7 +12,7 @@ class Account with ChangeNotifier {
   final double phonenumber;
   DateTime dateofbirth;
 
-
+..
   Account({
     @required this.id,
     @required this.name,
