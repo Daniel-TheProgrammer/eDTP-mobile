@@ -177,6 +177,7 @@ class _EditProductScreenState extends State<EditProductScreen> {
                             id: _editedProduct.id,
                             isFavorite: _editedProduct.isFavorite);
                       },
+                      
                     ),
                     TextFormField(
                       initialValue: _initValues['price'],
