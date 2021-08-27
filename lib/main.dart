@@ -53,6 +53,7 @@ class MyApp extends StatelessWidget {
           value: Cart(),
         ),
         // ignore: missing_required_param
+        
         ChangeNotifierProxyProvider<Auth, Orders>(
           update: (ctx, auth, previousOrders) => Orders(
             auth.token,
