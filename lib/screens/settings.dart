@@ -65,15 +65,7 @@ class _SettingsState extends State<Settings> {
                 }))));
   }
 
-  List<Widget> getListOfActionButtons() {
-    var actionItems = <Widget>[];
-
-    actionItems.addAll([
-      RaisedButton.icon(
-        icon: Icon(Icons.wifi),
-        color: Colors.cyan[200],
-        label: Text(
-          "WIFI",
+  
           style: TextStyle(
               fontSize: 18, fontFamily: 'Raleway', fontWeight: FontWeight.bold),
         ),
